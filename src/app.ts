@@ -16,7 +16,7 @@ app.use(helmet());
 app.use(limiter);
 
 app.get("/", (req, res) => {
-  res.send("Hello, World! Express with TypeScript is working!");
+  res.send("Hello, World!");
 });
 
 export default app;
